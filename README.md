@@ -82,7 +82,7 @@ MVP-система, которая ведёт клиента розничной 
   находит нужного клиента по chat_id/user_id, поиск вручную не нужен.
 - Ведёт журнал событий (`data/events.jsonl`) — на каких шагах чаще всего
   «❌ Не получилось», сколько вопросов дошло и было отвечено
-  (разбор — скрипт `bot_stats.py`, не входит в этот репозиторий).
+  (разбор — `python bot_stats.py [--days N] [--bot telegram|max]`).
 - Дублирует уведомления о заказах из ABCP в MAX без изменений на стороне ABCP.
 - Собственный **коннектор к ABCP** (`publish-bot-to-site`) — публикует
   плавающую кнопку бота на сайте через веб-панель `cp.abcp.ru` в обход
@@ -129,6 +129,9 @@ MVP-система, которая ведёт клиента розничной 
   [README](max-bot/README.md)
 - `abcp-max-bridge/` — мост уведомлений ABCP → Telegram-группа → MAX (Python).
   [README](abcp-max-bridge/README.md)
+- `bot_stats.py` — разбор журналов `data/events.jsonl` обоих ботов: воронка
+  по шагам, доля дошедших до конца, сколько вопросов менеджеру доставлено
+  и отвечено (`python bot_stats.py [--days N] [--bot telegram|max]`).
 - **`.claude/skills/komandir-omnichannel-support/`** — **скилл проекта**:
   как развернуть, отладить и расширить систему целиком (все компоненты
   ниже). [SKILL.md](.claude/skills/komandir-omnichannel-support/SKILL.md)
