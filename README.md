@@ -91,11 +91,36 @@ MVP-система, которая ведёт клиента розничной 
 
 ## Скриншоты
 
+### Кнопка на сайте (коннектор к ABCP)
+
 ![Кнопки ботов на сайте komandir-nn.ru](screenshots/site-bot-buttons.jpg)
 
 Кнопки Telegram и MAX в левом нижнем углу сайта — размещены коннектором
-`publish-bot-to-site`. Скриншоты самих ботов и моста — в README каждого
-компонента (ссылки ниже).
+`publish-bot-to-site`.
+
+### Telegram-бот
+
+| Старт | Шаг сценария | Подсказка + вызов менеджера |
+|---|---|---|
+| ![start](telegram-bot/screenshots/01-start.jpg) | ![step](telegram-bot/screenshots/02-step-instruction.jpg) | ![tip](telegram-bot/screenshots/03-tip-and-call-manager.jpg) |
+
+| Заявка в чате менеджеров | Ответ менеджера клиенту |
+|---|---|
+| ![request](telegram-bot/screenshots/04-manager-request.jpg) | ![reply](telegram-bot/screenshots/05-manager-reply.jpg) |
+
+### MAX-бот
+
+| Старт | Заявка в чате менеджеров |
+|---|---|
+| ![start](max-bot/screenshots/02-start.jpg) | ![request](max-bot/screenshots/01-manager-request.jpg) |
+
+### Мост ABCP → MAX
+
+| Уведомление ABCP в Telegram-группе | То же уведомление, продублированное в MAX |
+|---|---|
+| ![telegram](abcp-max-bridge/screenshots/01-abcp-order-telegram.jpg) | ![max](abcp-max-bridge/screenshots/02-max-bridge-message.jpg) |
+
+Личные данные клиента (имя, телефон) на скриншотах заблюрены.
 
 ## Структура репозитория
 
