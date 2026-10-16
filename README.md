@@ -17,7 +17,8 @@ MVP-система, которая ведёт клиента розничной 
 ## Решение
 
 1. **Telegram-бот [@komandirnn_bot](https://t.me/komandirnn_bot)** (создан
-   через [@BotFather](https://t.me/BotFather)) и **MAX-бот** (создан через
+   через [@BotFather](https://t.me/BotFather)) и **MAX-бот
+   [@id5257052602_bot](https://max.ru/id5257052602_bot)** (создан через
    [dev.max.ru](https://dev.max.ru), зарегистрирован в кабинете
    [business.max.ru](https://business.max.ru)) — пошагово ведут клиента по
    реальному интерфейсу сайта (регистрация, корзина, оформление заказа). На
