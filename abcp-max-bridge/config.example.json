@@ -1,0 +1,8 @@
+{
+  "telegram_bot_token": "123456789:AAExampleTelegramBotTokenHere",
+  "telegram_source_chat_id": -1001234567890,
+  "max_bot_token": "your_max_bot_access_token_here",
+  "max_target_chat_id": 123456789,
+  "poll_timeout_seconds": 30,
+  "max_text_prefix": "🔔 Новый заказ ABCP:\n"
+}

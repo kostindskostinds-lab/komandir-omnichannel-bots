@@ -1,0 +1,14 @@
+{
+  "name": "komandir-max-bot",
+  "version": "1.0.0",
+  "description": "Бот для мессенджера MAX, который пошагово помогает зарегистрироваться на komandir-nn.ru и оформить заказ (порт komandir-telegram-bot)",
+  "main": "src/bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^0.3.1",
+    "dotenv": "^16.4.5"
+  }
+}
